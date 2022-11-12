@@ -13,8 +13,8 @@ Data.Estados = Data.loadMunicipiosJSON() #utilizado para carregar dados de todos
 Net.downloadDataFromUF("PI", 2) #download de dados de urnas do 2º turno do PIAUÍ
 Data.criaArquivosCSV("PI", 2) #compila os dados em arquivo CSV
 
-#Funções úteis:
-#   Data.Estados = Net.loadMunicipiosJSON()
+Funções úteis:
+   Data.Estados = Net.loadMunicipiosJSON()
 #       Necessário para carregar o arquivo MunicipiosJSON para poder executar as demais funções
 #
 #   Net.downloadDatafromUF("MG", 1)
