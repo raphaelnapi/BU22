@@ -4,11 +4,11 @@ Script em Python para download e análise de dados de boletim de urna do 1º e 2
 # Requisitos
 Para executar o script é necessário instalar os seguintes módulos: requests, asn1 e py7zr.
 
-Para isso, utilize os seguintes comandos no Prompt de Comando:
+Para isso, utilize os seguintes comandos no terminal do VS Code:
 ```bash
-python -m install pip requests
-python -m install pip asn1
-python -m install pip py7zr
+pip install requests
+pip install asn1
+pip install py7zr
 ```
 
 # Utilização do BU22
