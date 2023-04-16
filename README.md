@@ -50,3 +50,22 @@ Cria arquivo CSV de determinado estado a partir de arquivos *.BU e *.LOG dentro 
 ```Python
 Data.criaArquivosCSV("MG", 1)
 ```
+
+# Banco de Dados
+Para correto funcionamento das funções de análise dos arquivos BU e LOG estes arquivos devem estar organizados da seguinte forma:
+```
+- Pasta nomeada com UF
+- - Pasta nomeada com município em caixa alta
+- - - Arquivos BU e Log
+```
+
+Exemplo:
+```
+- RJ
+- - ANGRA DOS REIS
+- - - o00406-5801701160001.bu
+- - - o00406-5801701160001.logjez
+- - - o00406-5801701160001.rdv
+- - - o00406-5801701160002.bu
+- - - ...
+```
